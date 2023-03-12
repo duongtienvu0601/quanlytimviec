@@ -74,7 +74,7 @@
             $count_lamtheogio = Vieclam::where('tinhchat','Làm theo giờ')->where('trangthai',1)->get();
             $count_thuctapsinh = Vieclam::where('tinhchat','Thực tập sinh')->where('trangthai',1)->get();
 
-        	return view('vieclam.vieclam',compact('vieclam','count_vieclam','khuvuc','khuvuc_n','nganhnghe_n','khuvuc1','nganhnghe','cty','cty1','dt','ngayhientai','homqua','toanthoigian','banthoigian','lamtheogio','thuctapsinh','count_ngayhientai','count_homqua','count_toanthoigian','count_banthoigian','count_lamtheogio','count_thuctapsinh'));
+        	return view('vieclam.vieclam',compact('vieclam','count_vieclam','khuvuc','khuvuc_n','nganhnghe_n','khuvuc1','nganhnghe','cty1','ngayhientai','homqua','toanthoigian','banthoigian','lamtheogio','thuctapsinh','count_ngayhientai','count_homqua','count_toanthoigian','count_banthoigian','count_lamtheogio','count_thuctapsinh'));
         }
 
         //trang chi tiết việc làm
@@ -1488,7 +1488,7 @@
 
             $khuvuc = Khuvuc::paginate(10);
             
-            return view('admin.quanlikhuvuc.index',compact('khuvuc','khuvuc_n','nganhnghe_n','countkv'));
+            return view('admin.quanlikhuvuc.index',compact('khuvuc'));
         }
         
         //thêm khu vực

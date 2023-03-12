@@ -15,14 +15,9 @@
                         <div class="col-md-9 co-sm-9 pull-right">
                             <ul>
                                 <li><a href="" title="Về chúng tôi">Giới thiệu</a></li>
-                                <li><a href="" target="_blank">Quy chế hoạt động</a></li>
-                                <li><a href="" target="_blank">Giải quyết tranh chấp</a></li>
-                                <li><a href="" title="Điều khoản sử dụng">Điều khoản</a></li>
-                                <li><a href="" title="Chính sách bảo mật">Bảo mật</a></li>
                                 <li><a target="_blank" href="" title="JobsGO dành cho Nhà tuyển dụng tìm kiếm nhân sự">Dành cho Nhà Tuyển Dụng</a></li>
                                 <li><a href="" title="Câu hỏi thường gặp">FAQ</a></li>
                                 <li><a href="" target="_blank" title="Tin tức">Blog</a></li>
-                                <li><a href="" title="Sơ đồ trang web">Sitemap</a></li>
                             </ul>
                         </div>
                     </div>
@@ -35,10 +30,9 @@
                             <div class="footer-widget">
                                 <h3 class="widgettitle widget-title">CÔNG TY VNS</h3>
                                 <div class="textwidget">
-                                    <p><strong>Văn phòng Miền Bắc:</strong> Tòa nhà ABC <br> Hoàn Kiếm, Hà Nội</p>
                                     <p><strong>Văn phòng Miền Nam:</strong> 475A Điện Biên Phủ <br> Phường 25, Quận Bình Thạnh, TP. Hồ Chí Minh</p>
                                     <p><strong>Email:</strong> <a href="mailto:admin123@gmail.com">admin123@gmail.com</a></p>
-                                    <p><strong>Hotline:</strong> <a href="tel:0942.594.916">0942.594.916</a></p>
+                                    <p><strong>Hotline:</strong> <a href="tel:0942.594.916">0942.904.093</a></p>
                                     <ul class="footer-social">
                                         <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
                                         <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
@@ -107,7 +101,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-10">
-                            <p class="pull-left">Web thành lập ngày 30/04/2022 do CÔNG TY VNS <br> © 2022 Công ty Cổ phần CÔNG TY VNS. All Rights Reserved.</p>
+                            <p class="pull-left">Web thành lập ngày 30/04/2022<br> © 2022 VNS. All Rights Reserved.</p>
                         </div>
                         <div class="col-sm-2">
                             <a href="{{route('quanlytimvieclam.com')}}">
